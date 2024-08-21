@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a8ff2e1a460de46bba6414eec952cc, type: 3}
+  m_Name: sfx_preset_train_combatcomp_1_atkpower
+  m_EditorClassIdentifier: 
+  sfx:
+  - {fileID: 8300000, guid: 7dd1ce6791ea32844bbf7171ab840586, type: 3}
+  - {fileID: 8300000, guid: c6d17226f6d08f04e8ba12f9f05d7dcc, type: 3}
+  - {fileID: 8300000, guid: a2024417116f16a4d91ad3e7c2a3b372, type: 3}
+  - {fileID: 8300000, guid: 4354b9e35d2dfa7409c0df2b7b834d61, type: 3}
+  - {fileID: 8300000, guid: a3bfb13d541e87f469bf991a83e1b964, type: 3}
+  - {fileID: 8300000, guid: d60c4c4a280cda843b5c62e7048dceb7, type: 3}
+  - {fileID: 8300000, guid: 97386a22c01e8ff4192db5d4054b585d, type: 3}
+  - {fileID: 8300000, guid: ee53828b4ca9ba44caf582c6e9e41c0f, type: 3}
+  isRandomPitch: 1
+  minPitch: 0.9
+  maxPitch: 1.1

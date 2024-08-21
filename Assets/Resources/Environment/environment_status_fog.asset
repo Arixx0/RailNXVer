@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c2b4b68a4af8e4fade57763c8131ba, type: 3}
+  m_Name: environment_status_fog
+  m_EditorClassIdentifier: 
+  displayName: "\uD658\uACBD \uC9C0\uB300 \uC548\uAC1C \uB514\uBC84\uD504"
+  description: "\uC548\uAC1C \uB514\uBC84\uD504 \uD6A8\uACFC\n\uACF5\uACA9 \uC0AC\uAC70\uB9AC
+    -25%"
+  enableHealthPointModifier: 0
+  healthPointModifier:
+    guid: ff2f324e-65cf-4ac8-a4e7-e257597037fd
+    modifierType: 0
+    value: 0
+  enableArmorPointModifier: 0
+  armorPointModifier:
+    guid: f84cab08-aa13-4fe2-b526-cd9886661857
+    modifierType: 0
+    value: 0
+  enableMoveSpeedModifier: 0
+  moveSpeedModifier:
+    guid: 7a9bd310-b8c7-4fb9-a06a-535e570f23c6
+    modifierType: 0
+    value: 0
+  enableRotateSpeedModifier: 0
+  rotateSpeedModifier:
+    guid: 777dcd14-b335-4231-b923-86af39229bdd
+    modifierType: 0
+    value: 0
+  enableAttackDamageModifier: 0
+  attackDamageModifier:
+    guid: 57bdec26-fecf-4c4c-bcda-a750937abd70
+    modifierType: 0
+    value: 0
+  enableArmorPierceModifier: 0
+  armorPierceModifier:
+    guid: d0084a40-f714-47d8-9823-e862d3130ec8
+    modifierType: 0
+    value: 0
+  enableAttackSpeedModifier: 0
+  attackSpeedModifier:
+    guid: f0cbc976-7b17-4fc1-bf1e-8b887a013fe5
+    modifierType: 0
+    value: 0
+  enableAttackRangeModifier: 1
+  attackRangeModifier:
+    guid: ad8f031d-b077-43ee-aa83-f26d0f312d73
+    modifierType: 1
+    value: -0.25
+  enableFuelEfficiencyModifier: 0
+  fuelEfficiencyModifier:
+    guid: bec2fd0d-8102-4feb-83a0-23e88641c9b4
+    modifierType: 0
+    value: 0
+  guid: 423438587
+  duration: 0

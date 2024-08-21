@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9de5d2d0d448b59b3aa4cf4bbf944c, type: 3}
+  m_Name: CarUpgradeTreeCombat
+  m_EditorClassIdentifier: 
+  unitCategory: Car_CombatComp
+  unitUpgradeTreeLUT:
+    keysSerializedCache:
+    - Car_CombatComp_0_Default
+    - Car_CombatComp_1_AtkSpeed
+    - Car_CombatComp_1_AtkPower
+    - Car_CombatComp_2_Machinegun
+    - Car_CombatComp_2_Shotgun
+    - Car_CombatComp_2_Sniper
+    - Car_CombatComp_2_Drone
+    - Car_CombatComp_3_DronePower
+    - Car_CombatComp_3_DroneSwarm
+    - Car_CombatComp_3_Flamethrower
+    - Car_CombatComp_3_Machinegun
+    - Car_CombatComp_3_Minigun
+    - Car_CombatComp_3_Mortar
+    - Car_CombatComp_3_Shotgun
+    - Car_CombatComp_3_Sniper
+    valuesSerializedCache:
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_1_AtkPower
+      - Car_CombatComp_1_AtkSpeed
+      model: {fileID: 6595952642976899306, guid: a0e25574225b04745985f9ada2adb12a,
+        type: 3}
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_2_Machinegun
+      - Car_CombatComp_2_Shotgun
+      model: {fileID: 7935199282959589300, guid: 6c2146a47df936d4abf816fddbd8107f,
+        type: 3}
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_2_Sniper
+      - Car_CombatComp_2_Drone
+      model: {fileID: 8919923918868946194, guid: 88830aef119661e4d98a17eeec844923,
+        type: 3}
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_3_Minigun
+      - Car_CombatComp_3_Machinegun
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_3_Flamethrower
+      - Car_CombatComp_3_Shotgun
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_3_Sniper
+      - Car_CombatComp_3_Mortar
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_3_DronePower
+      - Car_CombatComp_3_DroneSwarm
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_4_DronePower
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_4_DroneSwarm
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_4_Flamethrower
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_4_Machinegun
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_4_Minigun
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_4_Mortar
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_4_Shotgun
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_CombatComp_4_Sniper
+      model: {fileID: 0}

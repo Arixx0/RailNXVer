@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa2ba8f797c430ca679cc0a60440496, type: 3}
+  m_Name: status_derailment
+  m_EditorClassIdentifier: 
+  displayName: "\uC5F4\uCC28 \uD0C8\uC120 \uB514\uBC84\uD504"
+  description: "\uC5F4\uCC28 \uD0C8\uC120 \uB514\uBC84\uD504 \uD6A8\uACFC\n3\uCD08
+    \uB3D9\uC548 \uC774\uB3D9\uC18D\uB3C4 - 50%"
+  guid: 1023696181
+  applicableUnitTag: 1
+  refreshOnApply: 0
+  applyToChainedTargets: 0
+  enableHealthPointModifier: 0
+  healthPointModifier:
+    guid: 9209e01e-a95e-496e-809d-31a6c615cc3e
+    modifierType: 0
+    value: 0
+  enableArmorPointModifier: 0
+  armorPointModifier:
+    guid: 68bdf831-d5d3-4822-8ba4-680335a0fc6c
+    modifierType: 0
+    value: 0
+  enableMoveSpeedModifier: 1
+  moveSpeedModifier:
+    guid: caa1bcc7-d9fe-4b5f-a178-abba7e4d7a1c
+    modifierType: 2
+    value: -1
+  enableRotateSpeedModifier: 0
+  rotateSpeedModifier:
+    guid: 746588b8-a2f7-408c-ac02-29fa01bf9630
+    modifierType: 0
+    value: 0
+  enableAttackDamageModifier: 0
+  attackDamageModifier:
+    guid: 7cd33362-bde5-4f75-8c30-aa0017ed896d
+    modifierType: 0
+    value: 0
+  enableArmorPierceModifier: 0
+  armorPierceModifier:
+    guid: 3ef929e5-ebe5-406b-81e4-2cccc39aac43
+    modifierType: 0
+    value: 0
+  enableAttackSpeedModifier: 0
+  attackSpeedModifier:
+    guid: a8660ced-96ee-47c0-a713-7815b8c0750d
+    modifierType: 0
+    value: 0
+  enableAttackRangeModifier: 0
+  attackRangeModifier:
+    guid: 13522952-e9e6-4273-b6ca-f8e1e14685e5
+    modifierType: 0
+    value: 0
+  enableFuelEfficiencyModifier: 0
+  fuelEfficiencyModifier:
+    guid: be77a6e3-bd3b-4b8a-8c0a-cf11f7f2fe8d
+    modifierType: 0
+    value: 0
+  enableCarSafetyModifier: 0
+  carSafetyModifier:
+    guid: f4292787-3c36-4532-a376-8f1e3330a1be
+    modifierType: 0
+    value: 0
+  duration: 3

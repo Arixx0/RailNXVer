@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953bfcbd58850c44cab082148974770d, type: 3}
+  m_Name: ImageSettingsData
+  m_EditorClassIdentifier: 
+  imageCommonCategory: Image
+  imageSettings:
+  - categoryName: "\uC804\uB825 \uC544\uC774\uCF58"
+    imageData:
+    - name: "\uBE44\uD65C\uC131 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: ElectricPower
+        subType: Inactive
+      sprite: {fileID: 21300000, guid: 070282d2f7b81b542b1c773c246bbf70, type: 3}
+    - name: "\uC808\uC804 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: ElectricPower
+        subType: Low
+      sprite: {fileID: 21300000, guid: c955eec3e07c9ee4b9debe222171e736, type: 3}
+    - name: "\uD45C\uC900 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: ElectricPower
+        subType: Standard
+      sprite: {fileID: 21300000, guid: db022e203d513124faf7ac67ccc742c9, type: 3}
+    - name: "\uD6A8\uC728 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: ElectricPower
+        subType: High
+      sprite: {fileID: 21300000, guid: f0e3be71ecf2e5a418d5a7f176fad55d, type: 3}
+    - name: "\uC624\uBC84\uD074\uB9AD \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: ElectricPower
+        subType: Max
+      sprite: {fileID: 21300000, guid: 5b50e88ed5641994f82e1883a244941d, type: 3}
+  - categoryName: "\uC790\uC6D0 \uC544\uC774\uCF58"
+    imageData:
+    - name: "\uB3D9\uB825\uC11D \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Resource
+        subType: PowerStone
+      sprite: {fileID: 21300000, guid: 1381a85f5355d8441ae144972dba5cb8, type: 3}
+    - name: "\uAC15\uCCA0 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Resource
+        subType: Iron
+      sprite: {fileID: 21300000, guid: f6e0483ce4ee5f745981e3255c9ff954, type: 3}
+    - name: "\uD2F0\uD0C0\uB284 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Resource
+        subType: Titanium
+      sprite: {fileID: 21300000, guid: 939ebeb318b22f049af768d625e0c8f0, type: 3}
+    - name: "\uBBF8\uC2A4\uB9B4 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Resource
+        subType: Mythrill
+      sprite: {fileID: 21300000, guid: d72dc5738de487049b2671bbc4c60005, type: 3}
+    - name: "\uC544\uB2E4\uB9CC\uD2F4 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Resource
+        subType: Adamantine
+      sprite: {fileID: 21300000, guid: 1e26682a48a11df4889825fdc4f44b43, type: 3}
+    - name: "\uD68C\uB85C \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Resource
+        subType: Circuit
+      sprite: {fileID: 21300000, guid: d6f950acb1ae8cf4c93b294a45c28de3, type: 3}
+    - name: "\uBCF5\uAD6C\uCF54\uC5B4 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Resource
+        subType: RestoreCore
+      sprite: {fileID: 21300000, guid: 176dc82edadf8ec46a4d6047b9c2cb7d, type: 3}
+  - categoryName: "\uCC28\uB7C9 \uC544\uC774\uCF58"
+    imageData:
+    - name: "\uC804\uD22C \uCC28\uB7C9 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Car
+        subType: CombatComp_0_Default
+      sprite: {fileID: 21300000, guid: 5b309b8d37edfc74e91405a457f34f8e, type: 3}
+    - name: "\uC5D4\uC9C4 \uCC28\uB7C9 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Car
+        subType: EngineComp_0_Default
+      sprite: {fileID: 21300000, guid: 2df895121f1b36b4f83ec127058db0a9, type: 3}
+    - name: "\uCC44\uC9D1 \uCC28\uB7C9 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Car
+        subType: ScrapperComp_0_Default
+      sprite: {fileID: 21300000, guid: 3d395a9cd1a45d24bb3e09386f5ab145, type: 3}
+    - name: "\uBC1C\uC804 \uCC28\uB7C9 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Car
+        subType: GeneratorComp_0_Default
+      sprite: {fileID: 21300000, guid: c83575cd98cc72d4d8d66ea0c5499190, type: 3}
+    - name: "\uC720\uD2F8 \uCC28\uB7C9 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Car
+        subType: UtilityComp_0_Default
+      sprite: {fileID: 21300000, guid: c8f8972e78cb1de4f9dfa8d1a110b55e, type: 3}
+  - categoryName: "\uD504\uB85C\uADF8\uB798\uC2A4 \uBC14 \uC544\uC774\uCF58"
+    imageData:
+    - name: "\uAC74\uC124 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Operation
+        subType: Build
+      sprite: {fileID: 21300000, guid: b4a8ac9a3f9325446a39d2f7daf29ad0, type: 3}
+    - name: "\uCCA0\uAC70 \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Operation
+        subType: Demolish
+      sprite: {fileID: 21300000, guid: e68a68ad3cd309d4697ece64d9e86a1d, type: 3}
+    - name: "\uC218\uB9AC \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Operation
+        subType: RepairDurability
+      sprite: {fileID: 21300000, guid: 3bcb1e0f2c7845c449f282b8e3e44f24, type: 3}
+    - name: "\uD68C\uB85C \uC218\uB9AC \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Operation
+        subType: RepairCircuit
+      sprite: {fileID: 21300000, guid: 8a1fffdacc318134ea22dfaa66aa47b2, type: 3}
+    - name: "\uC804\uB825 \uBCC0\uACBD \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Operation
+        subType: ElectricPowerChange
+      sprite: {fileID: 21300000, guid: d70d13cce9d2f674f9aa538aa6999da5, type: 3}
+    - name: "\uC5C5\uADF8\uB808\uC774\uB4DC \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Operation
+        subType: Upgrade
+      sprite: {fileID: 21300000, guid: ece3b16c909374b44af76b49c4902290, type: 3}
+    - name: "\uBCF5\uAD6C \uC544\uC774\uCF58"
+      Identifier:
+        category: Image
+        objectType: Operation
+        subType: Restore
+      sprite: {fileID: 21300000, guid: f482016114de82c47afe7b7ac91bcfcb, type: 3}

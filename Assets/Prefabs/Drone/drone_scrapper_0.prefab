@@ -1,0 +1,1122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &452312659433748733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9149901074740087868}
+  - component: {fileID: 1075206630632760246}
+  - component: {fileID: 7559658765322837024}
+  - component: {fileID: 6244571210556982302}
+  - component: {fileID: 2905228197365569088}
+  - component: {fileID: 6299205269486686118}
+  - component: {fileID: 2987167930447643400}
+  m_Layer: 6
+  m_Name: drone_scrapper_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9149901074740087868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452312659433748733}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8055563234154648175}
+  - {fileID: 843074633200844478}
+  - {fileID: 1561515751935103182}
+  - {fileID: 164049308871130122}
+  - {fileID: 3186784179176644195}
+  - {fileID: 9146997658472641233}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1075206630632760246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452312659433748733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85b3a70f3274017b6a688656a2bde0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitTag: 4096
+  healthPoint:
+    isRangeDeltaValue: 0
+    baseValue: 25
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 25
+    currentValue: 0
+  armorPoint:
+    isRangeDeltaValue: 0
+    baseValue: 0
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 0
+    currentValue: 0
+  moveSpeed:
+    isRangeDeltaValue: 0
+    baseValue: 12
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 12
+    currentValue: 0
+  rotateSpeed:
+    isRangeDeltaValue: 0
+    baseValue: 20
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 20
+    currentValue: 0
+  moveSpeedDamp: 0.1
+  attackDamage:
+    isRangeDeltaValue: 0
+    baseValue: 0
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 0
+    currentValue: 0
+  armorPierce:
+    isRangeDeltaValue: 0
+    baseValue: 0
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 0
+    currentValue: 0
+  attackSpeed:
+    isRangeDeltaValue: 0
+    baseValue: 0
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 0
+    currentValue: 0
+  attackRange:
+    isRangeDeltaValue: 0
+    baseValue: 3
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 3
+    currentValue: 0
+  fuelEfficiency:
+    isRangeDeltaValue: 0
+    baseValue: 0
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 0
+    currentValue: 0
+  energyCost:
+    isRangeDeltaValue: 0
+    baseValue: 0
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 0
+    currentValue: 0
+  taskHandlingSpeed:
+    isRangeDeltaValue: 0
+    baseValue: 1
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 1
+    currentValue: 0
+  carSafety:
+    isRangeDeltaValue: 0
+    baseValue: 0
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 0
+    currentValue: 0
+  unitSize: 1
+  buildDelay: 0
+  level: 0
+  turnThresholdAngle: 10
+  attackRangeThreshold: 0
+  attackableSectorAngle: 0
+  turnThresholdAngleAlpha: 0.9961947
+  sqrAttackRange: 9
+  sqrThresholdAttackRange: 0
+  attackableSectorAngleAlpha: 1
+  statusEffectManager: {fileID: 6299205269486686118}
+  chainedStatComponents: []
+  scrapRate:
+    isRangeDeltaValue: 0
+    baseValue: 5
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 5
+    currentValue: 1
+  scrapAmountPerAction:
+    isRangeDeltaValue: 0
+    baseValue: 20
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 20
+    currentValue: 0
+  containerCapacity:
+    isRangeDeltaValue: 0
+    baseValue: 20
+    additiveValue: 0
+    multiplicativeValue: 0
+    errorFactor: 0
+    finalValue: 20
+    currentValue: 0
+--- !u!65 &7559658765322837024
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452312659433748733}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 1.2, z: 0}
+--- !u!114 &6244571210556982302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452312659433748733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 0
+  asynchronousLoad: 0
+  pauseWhenDisabled: 0
+  restartWhenComplete: 1
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 0}
+  mBehaviorSource:
+    behaviorName: ScrapperDroneBehavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(331.327118,-510.6612)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(0.32711792,110.560852)"},"ID":1,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Units.Drones.ScrapperDrone+ManipulateDecisionContext","NodeData":{"Offset":"(36.0083542,95.56085)"},"ID":2,"Name":"Manipulate
+        Decision Context","Instant":true,"SharedBehaviourtargetScrapperDrone":{"Type":"BehaviorDesigner.Runtime.SharedBehaviour","Name":"scrapperDroneComponent","IsShared":true,"Tooltip":"Base
+        ScrapperDrone component that runs this behavior.","BehaviourmValue":0},"SharedBoolisScrapTargetExists":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"isScrapTargetExist","IsShared":true,"Tooltip":"Is
+        set to TRUE if the scrap target is alive.","BooleanmValue":false},"SharedBoolisScrapTargetValid":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"isScrapTargetValid","IsShared":true,"Tooltip":"Is
+        set to TRUE if the scrap target is available to scrap(resourceAmount > 0).","BooleanmValue":false},"SharedBoolisScrapContainerFull":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"isContainerFull","IsShared":true,"Tooltip":"Is
+        set to TRUE if the drone''s container is full.","BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(214.3859,99.44449)","Comment":"Select
+        destination based on context"},"ID":3,"Name":"Select Destination","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1.62791634,161.6279)"},"ID":4,"Name":"Try
+        Get Vein Position","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.StackedConditional","NodeData":{"Offset":"(0,110)","Comment":"isScrapTargetExists
+        &&\nisScrapTargetValid &&\n!isContainerFull"},"ID":5,"Name":"Is Scrap Target
+        Valid","Instant":true,"Conditional[]conditionals":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.CompareSharedBool","Value":{"SharedBoolvariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"isScrapTargetExist","IsShared":true,"Tooltip":"Is
+        set to TRUE if the scrap target is alive.","BooleanmValue":false},"SharedBoolcompareTo":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.CompareSharedBool","Value":{"SharedBoolvariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"isScrapTargetValid","IsShared":true,"Tooltip":"Is
+        set to TRUE if the scrap target is available to scrap(resourceAmount > 0).","BooleanmValue":false},"SharedBoolcompareTo":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.CompareSharedBool","Value":{"SharedBoolvariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"isContainerFull","IsShared":true,"Tooltip":"Is
+        set to TRUE if the drone''s container is full.","BooleanmValue":false},"SharedBoolcompareTo":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}}}],"ComparisonTypecomparisonType":"Sequence","BooleangraphLabel":false},{"Type":"BehaviorDesigner.Runtime.Tasks.StackedAction","NodeData":{"Offset":"(185.588715,106.837769)","Comment":"Destination
+        is ScrapTarget"},"ID":6,"Name":"Set Destination","Instant":true,"Action[]actions":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.SetSharedBool","Value":{"SharedBooltargetValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBooltargetVariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"MoveToParent","IsShared":true,"Tooltip":"Is
+        set to TRUE if the drone should move towards the parent.","BooleanmValue":false}}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.SetSharedBool","Value":{"SharedBooltargetValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBooltargetVariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"MoveToVein","IsShared":true,"Tooltip":"Is
+        set to TRUE if the drone should move towards the target scrap vein.","BooleanmValue":false}}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityTransform.GetPosition","Value":{"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"scrapTargetGameObject","IsShared":true,"Tooltip":"Target
+        resource vein to scrap from current context."},"SharedVector3storeValue":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"targetPosition","IsShared":true,"Tooltip":"Destination
+        position of current context.","Vector3mValue":"(0,0,0)"}}}],"ComparisonTypecomparisonType":"Sequence","BooleangraphLabel":false}]},{"Type":"BehaviorDesigner.Runtime.Tasks.StackedAction","NodeData":{"Offset":"(396.233582,273.161255)","Comment":"Destination
+        is Parent Compartment"},"ID":7,"Name":"Set Destination","Instant":true,"Action[]actions":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.SetSharedBool","Value":{"SharedBooltargetValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBooltargetVariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"MoveToParent","IsShared":true,"Tooltip":"Is
+        set to TRUE if the drone should move towards the parent.","BooleanmValue":false}}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.SetSharedBool","Value":{"SharedBooltargetValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBooltargetVariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"MoveToVein","IsShared":true,"Tooltip":"Is
+        set to TRUE if the drone should move towards the target scrap vein.","BooleanmValue":false}}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityTransform.GetPosition","Value":{"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"parentCompartmentGameObject","IsShared":true,"Tooltip":"Parent
+        compartment(ScrapperCompartment) that holds this scrapper drone."},"SharedVector3storeValue":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"targetPosition","IsShared":true,"Tooltip":"Destination
+        position of current context.","Vector3mValue":"(0,0,0)"}}}],"ComparisonTypecomparisonType":"Sequence","BooleangraphLabel":false}]},{"Type":"Units.Drones.ScrapperDrone+MoveTowardsTargetAction","NodeData":{"Offset":"(618.7555,99.44452)","Comment":"Move
+        towards the selected destination\n(Postponed until arrived)"},"ID":8,"Name":"Move
+        Towards Target Action","Instant":true,"SharedVector3position":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"targetPosition","IsShared":true,"Tooltip":"Destination
+        position of current context.","Vector3mValue":"(0,0,0)"},"SharedBehaviourtargetScrapperDrone":{"Type":"BehaviorDesigner.Runtime.SharedBehaviour","Name":"scrapperDroneComponent","IsShared":true,"Tooltip":"Base
+        ScrapperDrone component that runs this behavior.","BehaviourmValue":1},"BooleandoesArriveAtDestination":false,"BooleancanMoveTowardsTarget":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(970,100)"},"ID":9,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(20,110)"},"ID":10,"Name":"When
+        Moving to Parent","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.CompareSharedBool","NodeData":{"Offset":"(3.49382019,116.618774)","Comment":"MoveToParent
+        == TRUE"},"ID":11,"Name":"Conditional","Instant":true,"SharedBoolvariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"MoveToParent","IsShared":true,"Tooltip":"Is
+        set to TRUE if the drone should move towards the parent.","BooleanmValue":false},"SharedBoolcompareTo":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}},{"Type":"Units.Drones.ScrapperDrone+DepositScrappedResourceAction","NodeData":{"Offset":"(204.604767,118.841064)","Comment":"Deposite
+        scrap to parent compartment."},"ID":12,"Name":"Deposit Scraps","Instant":true,"SharedBehaviourtargetScrapperDrone":{"Type":"BehaviorDesigner.Runtime.SharedBehaviour","Name":"scrapperDroneComponent","IsShared":true,"Tooltip":"Base
+        ScrapperDrone component that runs this behavior.","BehaviourmValue":2},"SharedBoolisCurrentScrapTargetValid":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"isScrapTargetValid","IsShared":true,"Tooltip":"Is
+        set to TRUE if the scrap target is available to scrap(resourceAmount > 0).","BooleanmValue":false},"SharedBoolisNewScrapTargetAvailable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"isNewScrapTargetValid","IsShared":true,"Tooltip":"Is
+        set to TRUE when the new scrap target assigned.","BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(365.1604,117.730042)"},"ID":13,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.StackedConditional","NodeData":{"Offset":"(506.46875,118.64386)","Comment":"isScrapTargetValid
+        &&\r\nisNewScrapTargetValid"},"ID":14,"Name":"Conditional","Instant":true,"Conditional[]conditionals":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.CompareSharedBool","Value":{"SharedBoolvariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"isScrapTargetValid","IsShared":true,"Tooltip":"Is
+        set to TRUE if the scrap target is available to scrap(resourceAmount > 0).","BooleanmValue":false},"SharedBoolcompareTo":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.CompareSharedBool","Value":{"SharedBoolvariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"isNewScrapTargetValid","IsShared":true,"Tooltip":"Is
+        set to TRUE when the new scrap target assigned.","BooleanmValue":false},"SharedBoolcompareTo":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}}}],"ComparisonTypecomparisonType":"Sequence","BooleangraphLabel":false},{"Type":"Units.Drones.ScrapperDrone+ReturnToParentCompartment","NodeData":{"Offset":"(696.917236,118.345764)","Comment":"Store
+        self to parent compartment."},"ID":15,"Name":"Return To Parent","Instant":true,"SharedBehaviourtargetScrapperDrone":{"Type":"BehaviorDesigner.Runtime.SharedBehaviour","Name":"scrapperDroneComponent","IsShared":true,"Tooltip":"Base
+        ScrapperDrone component that runs this behavior.","BehaviourmValue":3}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(192,370)"},"ID":16,"Name":"When
+        Moving to Vein","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.CompareSharedBool","NodeData":{"Offset":"(-1.673584,118.425766)","Comment":"MoveToVein
+        == TRUE"},"ID":17,"Name":"Conditional","Instant":true,"SharedBoolvariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"MoveToVein","IsShared":true,"Tooltip":"Is
+        set to TRUE if the drone should move towards the target scrap vein.","BooleanmValue":false},"SharedBoolcompareTo":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}},{"Type":"Units.Drones.ScrapperDrone+ScrapCurrentTargetAction","NodeData":{"Offset":"(179.772812,120.430954)"},"ID":18,"Name":"Scrap
+        Current Target Action","Instant":true,"SharedBehaviourtargetScrapperDrone":{"Type":"BehaviorDesigner.Runtime.SharedBehaviour","Name":"scrapperDroneComponent","IsShared":true,"Tooltip":"Base
+        ScrapperDrone component that runs this behavior.","BehaviourmValue":4},"BooleanterminatedDueToFullContainer":false,"BooleanterminatedDueToVeinDestroyed":false}]}]}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedBehaviour","Name":"scrapperDroneComponent","IsShared":true,"Tooltip":"Base
+        ScrapperDrone component that runs this behavior.","BehaviourmValue":5},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"scrapTargetGameObject","IsShared":true,"Tooltip":"Target
+        resource vein to scrap from current context."},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"parentCompartmentGameObject","IsShared":true,"Tooltip":"Parent
+        compartment(ScrapperCompartment) that holds this scrapper drone."},{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"targetPosition","IsShared":true,"Tooltip":"Destination
+        position of current context.","Vector3mValue":"(0,0,0)"},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"isScrapTargetExist","IsShared":true,"Tooltip":"Is
+        set to TRUE if the scrap target is alive.","BooleanmValue":false},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"isScrapTargetValid","IsShared":true,"Tooltip":"Is
+        set to TRUE if the scrap target is available to scrap(resourceAmount > 0).","BooleanmValue":false},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"isNewScrapTargetValid","IsShared":true,"Tooltip":"Is
+        set to TRUE when the new scrap target assigned.","BooleanmValue":false},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"isContainerFull","IsShared":true,"Tooltip":"Is
+        set to TRUE if the drone''s container is full.","BooleanmValue":false},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"MoveToParent","IsShared":true,"Tooltip":"Is
+        set to TRUE if the drone should move towards the parent.","BooleanmValue":false},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"MoveToVein","IsShared":true,"Tooltip":"Is
+        set to TRUE if the drone should move towards the target scrap vein.","BooleanmValue":false}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 2905228197365569088}
+        - {fileID: 2905228197365569088}
+        - {fileID: 2905228197365569088}
+        - {fileID: 2905228197365569088}
+        - {fileID: 2905228197365569088}
+        - {fileID: 2905228197365569088}
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.9
+  gizmoViewMode: 2
+  showBehaviorDesignerGizmo: 1
+--- !u!114 &2905228197365569088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452312659433748733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44c9fa08ed44b449372e5aeb91a87cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destructionCompositor: {fileID: 2987167930447643400}
+  behaviorTree: {fileID: 6244571210556982302}
+  statComponent: {fileID: 1075206630632760246}
+  healthBar: {fileID: 0}
+  colliderComponent: {fileID: 7559658765322837024}
+  animator: {fileID: 4119439886560380949}
+  timeForProduction: 5
+  resourceContainerTotalAmount: 0
+  currentScrapTargetVein: {fileID: 0}
+  hoveringSFXAudioSource: {fileID: 4757618995819424437}
+  drillingSFXAudioSource: {fileID: 8527557603147084849}
+  drillingSFXAudioClips:
+  - {fileID: 8300000, guid: 0034bc5a79b6a804da7d701d397f4f43, type: 3}
+  - {fileID: 8300000, guid: 0e22eda97fb0ddd4e9d38719591d8ace, type: 3}
+  - {fileID: 8300000, guid: 066a3b3de396bbb4fa2973cf4d25d122, type: 3}
+  drillingVFX: {fileID: 2241978233395556166}
+--- !u!114 &6299205269486686118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452312659433748733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b278568c7b48c2b116b0ec2b377e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statusEffects: []
+--- !u!114 &2987167930447643400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452312659433748733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2b4c824391453e9f137bbaf2eff4aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootMeshGameObject: {fileID: 7242013292930812117}
+  destructionVFXParticles: {fileID: 6045947433049513686}
+  destructionSFXSource: {fileID: 3567012985719543829}
+  destructionSFXPreset: {fileID: 11400000, guid: 87b9a23f35ad3704b9e06eca3a7834ed,
+    type: 2}
+--- !u!1 &1274507560210868938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 164049308871130122}
+  - component: {fileID: 4757618995819424437}
+  m_Layer: 6
+  m_Name: Hovering SFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &164049308871130122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274507560210868938}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9149901074740087868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &4757618995819424437
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274507560210868938}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 195007706515217976, guid: 11fd96477e5ba324dabbfc2a20d3b645,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 89ed45e927020584eb2b62b84c1c038a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &4182264609088229863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3186784179176644195}
+  - component: {fileID: 8527557603147084849}
+  m_Layer: 6
+  m_Name: Drilling SFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3186784179176644195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4182264609088229863}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9149901074740087868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &8527557603147084849
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4182264609088229863}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 195007706515217976, guid: 11fd96477e5ba324dabbfc2a20d3b645,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 0034bc5a79b6a804da7d701d397f4f43, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 5
+  MaxDistance: 150
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &4488883719516205895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9146997658472641233}
+  - component: {fileID: 3567012985719543829}
+  m_Layer: 0
+  m_Name: Explode SFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9146997658472641233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4488883719516205895}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9149901074740087868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &3567012985719543829
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4488883719516205895}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 195007706515217976, guid: 11fd96477e5ba324dabbfc2a20d3b645,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 2b9d5169d2093ba4a87d5aac37567dfb, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 5
+  MaxDistance: 150
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1001 &77637009112749310
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9149901074740087868}
+    m_Modifications:
+    - target: {fileID: 1493027111363019824, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493027111363019824, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493027111363019824, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493027111363019824, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493027111363019824, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493027111363019824, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493027111363019824, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493027111363019824, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493027111363019824, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493027111363019824, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008425327875093854, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3617229834405239387, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839312453760657114, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: m_Name
+      value: vfx_combat_dead_explosion_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 5189357748521348615, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846770932285909196, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5977498652037286440, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8319523896242430903, guid: d0f1d91bc7922e74bbb1224024017693,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d0f1d91bc7922e74bbb1224024017693, type: 3}
+--- !u!4 &1561515751935103182 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1493027111363019824, guid: d0f1d91bc7922e74bbb1224024017693,
+    type: 3}
+  m_PrefabInstance: {fileID: 77637009112749310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &6045947433049513686 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5977498652037286440, guid: d0f1d91bc7922e74bbb1224024017693,
+    type: 3}
+  m_PrefabInstance: {fileID: 77637009112749310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7320364526106657437
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9149901074740087868}
+    m_Modifications:
+    - target: {fileID: 2504232159378003952, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663696113573333761, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: clearBehavior
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3835543003404990505, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: m_Name
+      value: vfx_drong_scrap
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553369302165669688, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936498306709027875, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.072
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936498306709027875, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936498306709027875, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936498306709027875, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936498306709027875, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936498306709027875, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936498306709027875, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936498306709027875, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936498306709027875, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7936498306709027875, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829926727062285787, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829926727062285787, guid: e06b247b9fbc8e741a51da655201d925,
+        type: 3}
+      propertyPath: prewarm
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e06b247b9fbc8e741a51da655201d925, type: 3}
+--- !u!4 &843074633200844478 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7936498306709027875, guid: e06b247b9fbc8e741a51da655201d925,
+    type: 3}
+  m_PrefabInstance: {fileID: 7320364526106657437}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2241978233395556166 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8829926727062285787, guid: e06b247b9fbc8e741a51da655201d925,
+    type: 3}
+  m_PrefabInstance: {fileID: 7320364526106657437}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7512467526836647300
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9149901074740087868}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.71
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7115822775132777087, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -43.34449
+      objectReference: {fileID: 0}
+    - target: {fileID: -7115822775132777087, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -164.56316
+      objectReference: {fileID: 0}
+    - target: {fileID: -7115822775132777087, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -172.94897
+      objectReference: {fileID: 0}
+    - target: {fileID: -7020234551009713034, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -41.743065
+      objectReference: {fileID: 0}
+    - target: {fileID: -7020234551009713034, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 163.01591
+      objectReference: {fileID: 0}
+    - target: {fileID: -7020234551009713034, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 178.40967
+      objectReference: {fileID: 0}
+    - target: {fileID: -2242257148563607962, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 87.54895
+      objectReference: {fileID: 0}
+    - target: {fileID: -2242257148563607962, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -2242257148563607962, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 606594703365619693, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 88.80826
+      objectReference: {fileID: 0}
+    - target: {fileID: 606594703365619693, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.000012562339
+      objectReference: {fileID: 0}
+    - target: {fileID: 606594703365619693, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.000012547288
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_Name
+      value: Mesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: d781411a1b86f854f8a5831b1dda1794,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 96db5f265b2d2864c954ff3b85e347d6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d781411a1b86f854f8a5831b1dda1794, type: 3}
+--- !u!95 &4119439886560380949 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: d781411a1b86f854f8a5831b1dda1794,
+    type: 3}
+  m_PrefabInstance: {fileID: 7512467526836647300}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7242013292930812117 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d781411a1b86f854f8a5831b1dda1794,
+    type: 3}
+  m_PrefabInstance: {fileID: 7512467526836647300}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8055563234154648175 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d781411a1b86f854f8a5831b1dda1794,
+    type: 3}
+  m_PrefabInstance: {fileID: 7512467526836647300}
+  m_PrefabAsset: {fileID: 0}

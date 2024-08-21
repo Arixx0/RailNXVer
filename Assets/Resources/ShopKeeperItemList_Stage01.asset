@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4c48bfdb01c41428c7257d2fffe414c, type: 3}
+  m_Name: ShopKeeperItemList_Stage01
+  m_EditorClassIdentifier: 
+  slotProperties:
+  - itemsContext:
+    - identifier: Augment_Firepower
+      localProbability: 0.33
+    - identifier: Augment_Delicate
+      localProbability: 0.33
+    - identifier: Augment_Improve_Damage
+      localProbability: 0.34
+  - itemsContext:
+    - identifier: Resource_PowerStone
+      localProbability: 0.5
+    - identifier: Resource_Titanium
+      localProbability: 0.3
+    - identifier: Resource_Mithril
+      localProbability: 0.15
+    - identifier: Resource_Adamantine
+      localProbability: 0.05
+  - itemsContext:
+    - identifier: Car_CombatComp_1_AtkPower
+      localProbability: 1

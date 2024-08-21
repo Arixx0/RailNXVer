@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9de5d2d0d448b59b3aa4cf4bbf944c, type: 3}
+  m_Name: CarUpgradeTreeEngine
+  m_EditorClassIdentifier: 
+  unitCategory: Car_EngineComp
+  unitUpgradeTreeLUT:
+    keysSerializedCache:
+    - Car_EngineComp_0_Default
+    - Car_EngineComp_1_Durability
+    - Car_EngineComp_2_ModuleDurability
+    - Car_EngineComp_2_EngineDurability
+    - Car_EngineComp_3_Generator
+    - Car_EngineComp_3_MaxModule
+    - Car_EngineComp_3_Turret
+    - Car_EngineComp_3_Shield
+    valuesSerializedCache:
+    - nextUpgradeNodeIdentifier:
+      - Car_EngineComp_1_Durability
+      model: {fileID: 4551180649266420819, guid: c4488308dde365247afea2b1f3ef587c,
+        type: 3}
+    - nextUpgradeNodeIdentifier:
+      - Car_EngineComp_2_EngineDurability
+      - Car_EngineComp_2_ModuleDurability
+      model: {fileID: 4481666082149372546, guid: 8a6b2d12932ef5541a4eb1ef5bda8fd4,
+        type: 3}
+    - nextUpgradeNodeIdentifier:
+      - Car_EngineComp_3_Generator
+      - Car_EngineComp_3_MaxModule
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_EngineComp_3_Shield
+      - Car_EngineComp_3_Turret
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_EngineComp_4_Generator
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_EngineComp_4_MaxModule
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_EngineComp_4_Pager
+      - Car_EngineComp_4_SplashTurret
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_EngineComp_4_Regeneration
+      - Car_EngineComp_4_Shield
+      model: {fileID: 0}

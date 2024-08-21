@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9de5d2d0d448b59b3aa4cf4bbf944c, type: 3}
+  m_Name: CarUpgradeTreeScrapper
+  m_EditorClassIdentifier: 
+  unitCategory: Car_ScrapperComp
+  unitUpgradeTreeLUT:
+    keysSerializedCache:
+    - Car_ScrapperComp_0_Default
+    - Car_ScrapperComp_1_Distance
+    - Car_ScrapperComp_1_Speed
+    - Car_ScrapperComp_2_Laser
+    - Car_ScrapperComp_2_DroneUpgrade
+    - Car_ScrapperComp_3_Laser
+    - Car_ScrapperComp_3_DroneUpgrade
+    valuesSerializedCache:
+    - nextUpgradeNodeIdentifier:
+      - Car_ScrapperComp_1_Distance
+      - Car_ScrapperComp_1_Speed
+      model: {fileID: 2995433560490869851, guid: 3c37e7790ff45f74ea141a693e8a5775,
+        type: 3}
+    - nextUpgradeNodeIdentifier:
+      - Car_ScrapperComp_2_DroneUpgrade
+      model: {fileID: 1866195217352751543, guid: ff71cb75256507242aaa3e00729da322,
+        type: 3}
+    - nextUpgradeNodeIdentifier:
+      - Car_ScrapperComp_2_Laser
+      model: {fileID: 6471208663456531146, guid: 6d3a25e6ab85bf540ab6cfc5521652aa,
+        type: 3}
+    - nextUpgradeNodeIdentifier:
+      - Car_ScrapperComp_3_Laser
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_ScrapperComp_3_DroneUpgrade
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_ScrapperComp_4_Laser
+      model: {fileID: 0}
+    - nextUpgradeNodeIdentifier:
+      - Car_ScrapperComp_4_DroneUpgrade
+      model: {fileID: 0}

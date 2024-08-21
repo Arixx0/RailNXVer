@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0502f721b04b5da63a5ee36769792c, type: 3}
+  m_Name: augment_mine
+  m_EditorClassIdentifier: 
+  displayName: 
+  description: 
+  applicableUnitTag: 256
+  enableHealthPointModifier: 0
+  healthPointModifier:
+    guid: f9f023ab-f81b-4662-962d-21a05e0e0caf
+    modifierType: 0
+    value: 0
+  enableArmorPointModifier: 0
+  armorPointModifier:
+    guid: df29b261-5c78-489e-8cac-f81f28a58eef
+    modifierType: 0
+    value: 0
+  enableMoveSpeedModifier: 0
+  moveSpeedModifier:
+    guid: 75777b79-6a55-4f63-86c2-20f1065d7755
+    modifierType: 0
+    value: 0
+  enableRotateSpeedModifier: 0
+  rotateSpeedModifier:
+    guid: 34c80430-730e-4f0c-bdfb-242d8152c7df
+    modifierType: 0
+    value: 0
+  enableAttackDamageModifier: 0
+  attackDamageModifier:
+    guid: 2060ffc9-5d7e-4eae-a75f-a7c617055962
+    modifierType: 0
+    value: 0
+  enableArmorPierceModifier: 0
+  armorPierceModifier:
+    guid: 2085ec52-5b99-4af9-b1e0-16816d9d16fc
+    modifierType: 0
+    value: 0
+  enableAttackSpeedModifier: 0
+  attackSpeedModifier:
+    guid: fc66c56b-3688-4b71-a045-cb75cb0b9709
+    modifierType: 0
+    value: 0
+  enableAttackRangeModifier: 0
+  attackRangeModifier:
+    guid: eae0af20-6fc0-4ac5-96d0-d5223a33cffb
+    modifierType: 0
+    value: 0
+  enableFuelEfficiencyModifier: 0
+  fuelEfficiencyModifier:
+    guid: 86cab277-6441-49a1-b933-18bea4e4f844
+    modifierType: 0
+    value: 0
+  enableCarSafetyModifier: 0
+  carSafetyModifier:
+    guid: 4f4985d4-8dfd-4f3b-983b-d63e80eab832
+    modifierType: 0
+    value: 0

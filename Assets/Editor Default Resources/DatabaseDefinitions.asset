@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46bd3308b41e4040a9145bec03252741, type: 3}
+  m_Name: DatabaseDefinitions
+  m_EditorClassIdentifier: 
+  dataAssetsToLoad:
+  - assetPath: ResourceSettingsData
+    containerName: ResourceSettingsData
+  - assetPath: CarUpgradeTreeCombat
+    containerName: UnitUpgradeTree
+  - assetPath: CarUpgradeTreeGenerator
+    containerName: UnitUpgradeTree
+  - assetPath: CarUpgradeTreeScrapper
+    containerName: UnitUpgradeTree
+  - assetPath: CarUpgradeTreeUtility
+    containerName: UnitUpgradeTree
+  - assetPath: CarUpgradeTreeEngine
+    containerName: UnitUpgradeTree
+  csvDataAssetsToLoad:
+  - assetPath: ScrapperDroneData
+    containerName: ScrapperDroneData
+  - assetPath: CarCostData
+    containerName: CarCostData
+  - assetPath: UnitStatData
+    containerName: UnitStatData
+  - assetPath: ShopItemsData
+    containerName: ShopItemsData

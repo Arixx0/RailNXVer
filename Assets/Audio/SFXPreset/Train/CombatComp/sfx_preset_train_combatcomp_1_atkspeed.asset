@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a8ff2e1a460de46bba6414eec952cc, type: 3}
+  m_Name: sfx_preset_train_combatcomp_1_atkspeed
+  m_EditorClassIdentifier: 
+  sfx:
+  - {fileID: 8300000, guid: 30460b9227719554e8064d2e6718e141, type: 3}
+  - {fileID: 8300000, guid: 65bfc0a6d65075641a7350cc934c31e5, type: 3}
+  - {fileID: 8300000, guid: 05f5ab4bce7ed3d4d802e3ce3d923121, type: 3}
+  - {fileID: 8300000, guid: b61be4c9c7e5a924db3fd73d74a7bb74, type: 3}
+  - {fileID: 8300000, guid: 4b883cd5aebf27a4ab97f158a6ebef92, type: 3}
+  - {fileID: 8300000, guid: 40a9b62c671b73c469d0eebe98ff2f29, type: 3}
+  - {fileID: 8300000, guid: 258d2de9122114d48813ee105c2ec6ce, type: 3}
+  - {fileID: 8300000, guid: 1e53e013ad6676f448c2633d96066d73, type: 3}
+  isRandomPitch: 1
+  minPitch: 0.9
+  maxPitch: 1.4

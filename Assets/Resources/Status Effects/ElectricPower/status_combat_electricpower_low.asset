@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa2ba8f797c430ca679cc0a60440496, type: 3}
+  m_Name: status_combat_electricpower_low
+  m_EditorClassIdentifier: 
+  displayName: "\uC804\uD22C \uC804\uB825 \uC808\uC804 \uB514\uBC84\uD504"
+  description: "\uC804\uD22C \uC804\uB825 \uC808\uC804 \uB514\uBC84\uD504 \uD6A8\uACFC\n\uACF5\uACA9
+    \uC18D\uB3C4 -50%"
+  guid: -1311931697
+  applicableUnitTag: 256
+  refreshOnApply: 1
+  enableHealthPointModifier: 0
+  healthPointModifier:
+    guid: 509b3cc6-a1fa-45c7-b48f-87b18a3224c3
+    modifierType: 0
+    value: 0
+  enableArmorPointModifier: 0
+  armorPointModifier:
+    guid: f5fc1942-7285-454d-b35d-d494334658d4
+    modifierType: 0
+    value: 0
+  enableMoveSpeedModifier: 0
+  moveSpeedModifier:
+    guid: 18c65462-722f-4fbb-96cf-5028284d2fb6
+    modifierType: 1
+    value: 0.25
+  enableRotateSpeedModifier: 0
+  rotateSpeedModifier:
+    guid: a652dc09-b287-4a5e-aba3-04acddcbaf67
+    modifierType: 0
+    value: 0
+  enableAttackDamageModifier: 0
+  attackDamageModifier:
+    guid: 162dc919-84cf-4163-b78f-ce50a86b1ce0
+    modifierType: 0
+    value: 0
+  enableArmorPierceModifier: 0
+  armorPierceModifier:
+    guid: fa4ed73a-a08d-4997-ab44-47367a4265f0
+    modifierType: 0
+    value: 0
+  enableAttackSpeedModifier: 1
+  attackSpeedModifier:
+    guid: c4643ae4-b301-4bc5-8db5-169acb3bdbaa
+    modifierType: 1
+    value: -0.5
+  enableAttackRangeModifier: 0
+  attackRangeModifier:
+    guid: a0e568a3-2590-49e6-a2cf-5cafe40433e5
+    modifierType: 0
+    value: 0
+  enableFuelEfficiencyModifier: 0
+  fuelEfficiencyModifier:
+    guid: 09e74a05-0338-4ae6-a25d-fdd4b0fa558a
+    modifierType: 0
+    value: 0
+  enableCarSafetyModifier: 0
+  carSafetyModifier:
+    guid: d74355d8-cca5-45af-a287-24a6068e3d95
+    modifierType: 0
+    value: 0
+  duration: Infinity

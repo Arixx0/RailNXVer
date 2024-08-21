@@ -1,0 +1,62 @@
+Index,Title,Description,Resource_1,Resource_1_Num,Resource_2,Resource_2_Num,Resource_3,Resource_3_Num,Choice_1,Choice_2,Choice_3
+string,,,string,int,string,int,string,int,string,string,string
+Event_Outpost,약탈자 전초 기지,대규모의 약탈자 전초 기지입니다. 힘든 싸움이 될 것입니다!,,,,,,,Choice_Common_Preparecombat,,
+Event_OutpostStorage,전초기지 창고,전초 기지의 창고입니다. 다음과 같은 자원이 보관되어 있습니다.,Resource_Iron,100,Resource_Titanium,100,,,Choice_Common_Looting,Choice_Common_Ignore,
+Event_MassOfResources,자원 덩어리,대량의 자원이 스폰됩니다.,,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_VENUS_Upgrade_TemporaryShield,"V.E.N.U.S의 업그레이드 제안: 임시 방어막
+","V.E.N.U.S가 업그레이드를 제안합니다.
+\n \n
+""기장님의 운행 실력을 분석한 결과, 개별 방어 통합 및 방해 기술 (I.D.I.O.T) 도입이 시급하게 필요합니다.
+도입 절차 중에는 보호를 위해 임시 방어막을 활성화하나, 피해를 입을 시 돌이킬 수 없는 손상을 야기할 것입니다.""
+\n \n
+수락할 경우, 즉시 도입 절차가 시행됩니다.",,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_VENUS_Upgrade_AdequateShield,"V.E.N.U.S의 업그레이드 제안: 준수한 방어막","""V.E.N.U.S가 업그레이드를 제안합니다.
+\n \n
+""기장님의 운행 실력을 분석한 결과,  복합 탄력적 장갑 프로토콜(C.R.A.P) 의 도입이 시급하게 필요합니다.
+도입 절차 중에는 보호를 위해 임시 방어막을 활성화하나, 피해를 입을 시 돌이킬 수 없는 손상을 야기할 것입니다.""
+\n \n
+수락할 경우, 즉시 도입 절차가 시행됩니다.""",,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_VENUS_Upgrade_RegenerativeShield,V.E.N.U.S의 업그레이드 제안: 재생 방어막,"모든 차량은 최대 체력이 -50%되지만, 최대 체력의 30%인 재생 방어막(베리어)를 획득합니다. \n
+재생 방어막은 초당 1씩 회복하며 파괴될 시 15초 쿨다운 후 재생성됩니다.",,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_Wreck,잔해 더미,폭풍에 휘말려 파괴된 기계의 잔해입니다. 쓸만한 것을 찾을 수 있을지도 모릅니다.,,,,,,,Choice_Common_Research,Choice_Common_Ignore,
+Event_WasteModule,버려진 모듈,주 엔진을 제외한 랜덤한 모듈을 획득합니다.,,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_MercenarySoldier,용병단,자원을 소모하여 용병단을 고용할 수 있습니다.,,,,,,,Choice_Common_Trade,Choice_Common_Ignore,
+Event_Caravan,횡단자 집단,"폭풍을 피해 황무지를 횡단하는 민간인 집단입니다. 약탈자들로부터 공격받아 그들의 탈것 일부가 파괴되었습니다. 그들의 리더가 간곡히 부탁합니다.
+""차량을 수리할 자원을 나눠주시면, 목적지까지 동행하며 함께 싸우겠습니다.""",Resource_Iron,-50,,,,,Choice_Common_Help,Choice_Common_Ignore,Choice_Looting_Caravan
+Event_Caravan_AttackWarning,[적대 세력] 횡단자 집단,<color=#ff0000>횡단자 집단이 공격해옵니다! 앞으로 모든 횡단자 집단이 당신을 적으로 간주합니다!</color>,,,,,,,Choice_Common_Preparecombat,,
+Event_Evacuee,피난민,"수많은 전투로 인해 생긴 피난민입니다. 수용한다면 동력석 소모량이 +30%되지만, 전력 생산량을 +5 올려줍니다.",,,,,,,Choice_Common_Help,Choice_Common_Ignore,Choice_Looting_Evacuee
+Event_Evacuee_AttackWarning,[적대 세력] 피난민,<color=#ff0000>피난민이 공격해옵니다! 앞으로 모든 피난민이 당신을 적으로 간주합니다!</color>,,,,,,,Choice_Common_Preparecombat,,
+Event_DestroyedCar,파괴된 열차,랜덤한 모듈 하나를 파괴된 상태로 획득할 수 있습니다.,,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_UunidentifiedFactory,미확인 공장,다양한 물건을 생산하던 공장입니다. 랜덤한 Booster를 획득합니다.,,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_RadiationDepot,방사선 창고,보상 획득 시 방사선 폭발이 발생합니다.,,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_WreckEnemy_AttackWarning,매복한 적 출현,적의 함정이었습니다. 매복한 적이 공격해옵니다!,,,,,,,Choice_Common_Preparecombat,,
+Event_WreckDamagedAugment,손상된 증강체,잔해에서 손상된 증강체를 발견했습니다. 수리하면 다시 사용할 수 있을지도 모릅니다.,Resource_Iron,-50,,,,,Choice_Common_Repair,Choice_Common_Ignore,
+Event_Manipulator,기후 위성 조작기,기후 위성을 조작할 수 있는 장치입니다. 폭풍을 막기 위한 인류의 수많은 시도 중 하나였습니다. 폭풍의 움직임을 1분간 정지시킵니다.,,,,,,,Choice_Common_Operate,Choice_Common_Ignore,
+Event_WanderingMerchant,떠돌이 상인,낡고 커다란 트럭을 몰고다니는 잡상인입니다. 쓸만한 물건을 팔지도 모릅니다.,,,,,,,Choice_Common_Trade,Choice_Common_Ignore,Choice_Common_WanderingMerchant
+Event_WanderingMerchant_AttackWarning,[적대 세력] 떠돌이 상인,<color=#ff0000>떠돌이 상인이 공격해옵니다! 앞으로 모든 상인이 당신을 적으로 간주합니다!</color>,,,,,,,Choice_Common_Preparecombat,,
+Event_Repairshop,정비소,버려진 정비소입니다. 열차를 수리할 부품이 남아 있을지도 모릅니다.,,,,,,,,,
+Event_Repairshop_Findresource,정비소 추가 보상,정비소에 남아있는 쓸만한 물건들을 발견했습니다.,Resource_Iron,50,,,,,Choice_Common_Get,Choice_Common_Ignore,
+Event_AbandonedScrappingFacility,버려진 채취시설,버려진 자원 채취 시설입니다.,,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_Resources,자원,자원이 스폰됩니다.,,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_Small_Battle,소규모 전투,소규모의 적 웨이브가 스폰됩니다.,,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_BrokenTrack,부서진 선로,"부서진 선로입니다. 수리하지 않고 건널 경우, 모든 차량이 대미지를 입습니다.",,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_SolarWind,태양풍,강력한 태양풍이 발생했습니다! 발전 차량의 발전량이 5분간 -2 감소합니다.,,,,,,,Choice_Common_Embrass,,
+Event_EmergencyEscape,긴급 탈출,"“기장님, 폭풍이 다가오고 있습니다. 열차의 속도를 올려야 합니다.”",,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_GroundbreakingDiscovery_Development_Start,획기적인 발견: 발전_시작,"“기장님, 연구원 그레이스입니다. \n
+열차의 발전 효율을 개선하는 획기적인 방법을 발견했습니다. \n
+승인해주시면 VENUS에게 전달하겠습니다.”",,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_GroundbreakingDiscovery_Development_Complite,획기적인 발견: 발전_완료,"""열차 발전 효율 개선이 완료되었습니다.""",,,,,,,Choice_Common_Confirm,,
+Event_GroundbreakingDiscovery_Power_Efficiency_Start,획기적인 발견: 동력 효율_시작,"열차의 동력석 소비 효율을 개선하는 획기적인 방법을 발견했습니다. \n
+승인해주시면 VENUS에게 전달하겠습니다.”",,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_GroundbreakingDiscovery_Power_Efficiency_Complite,획기적인 발견: 동력 효율_완료,"""열차 동력 효율 개선이 완료되었습니다.""",,,,,,,Choice_Common_Confirm,,
+Event_GeneratorTrouble_Repair,발전 장치 고장_수리,"“기장님, 주 엔진의 발전 장치에 이상이 발생했습니다. \n
+즉시 발전 장치의 가동을 멈추고 수리 해야 합니다.”",,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_GeneratorTrouble_Ignore,발전 장치 고장_무시,엔진의 전력 생산량이 -2 감소합니다.,,,,,,,Choice_Common_Confirm,,
+Event_AugmentSacrifice,증강체 희생,"“기장님, 열차의 체력이 부족합니다. 증강체 1개를 희생한다면 회복시킬 수 있습니다.”  \n
+증강체 1개를 소모해 전체 차량 체력을 20% 회복합니다.",,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_AugmentMerchant,증강체 상인,증강체 보따리를 들고 다니는 상인입니다. 쓸만한 증강체를 팔지도 모릅니다.,,,,,,,Choice_Common_Trade,Choice_Common_Ignore,Choice_Attack_AugmentMerchant
+Event_AugmentMerchant_AttackWarning,[적대 세력] 증강체 상인,<color=#ff0000>증강체 상인이 공격해옵니다! 앞으로 모든 상인이 당신을 적으로 간주합니다!</color>,,,,,,,Choice_Common_Preparecombat,,
+Event_TemporaryReinforcement_AtkDamage,일시적 강화: 공격력,"""기장님 강철을 사용하면 일시적으로 공격력을 강화할 수 있습니다."" \n
+강철 50개를 소모해 5분간 열차 공격력을 +50% 증가시킵니다.",,,,,,,Choice_Common_Accept,Choice_Common_Ignore,
+Event_TemporaryReinforcement_Armor,일시적 강화: 방어력,"""기장님 강철을 사용하면 일시적으로 방어력을 강화할 수 있습니다."" \n
+강철 50개를 소모해 5분간 열차 방어력을 +5 증가시킵니다.",,,,,,,Choice_Common_Accept,Choice_Common_Ignore,

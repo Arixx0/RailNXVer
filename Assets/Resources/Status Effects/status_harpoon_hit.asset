@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa2ba8f797c430ca679cc0a60440496, type: 3}
+  m_Name: status_harpoon_hit
+  m_EditorClassIdentifier: 
+  displayName: "\uC791\uC0B4 \uB514\uBC84\uD504"
+  description: "\uC791\uC0B4 \uB514\uBC84\uD504 \uD6A8\uACFC\n5\uCD08 \uB3D9\uC548
+    \uC774\uB3D9 \uC18D\uB3C4 - 20%"
+  guid: 1137491637
+  applicableUnitTag: 1
+  refreshOnApply: 0
+  applyToChainedTargets: 0
+  enableHealthPointModifier: 0
+  healthPointModifier:
+    guid: 130e8f9d-74b2-4966-b882-a7710b4963f9
+    modifierType: 0
+    value: 0
+  enableArmorPointModifier: 0
+  armorPointModifier:
+    guid: 2cb18620-7fa1-4cf6-aff4-09d61c337392
+    modifierType: 0
+    value: 0
+  enableMoveSpeedModifier: 1
+  moveSpeedModifier:
+    guid: 9a9cefa6-b3a4-4c74-98c1-dad0a7b6388d
+    modifierType: 1
+    value: -0.2
+  enableRotateSpeedModifier: 0
+  rotateSpeedModifier:
+    guid: de77f2bf-676c-45ac-b7f8-c449dc4c44dd
+    modifierType: 0
+    value: 0
+  enableAttackDamageModifier: 0
+  attackDamageModifier:
+    guid: 899bc3e8-25f0-476d-977b-8d07822f9499
+    modifierType: 0
+    value: 0
+  enableArmorPierceModifier: 0
+  armorPierceModifier:
+    guid: ce9cfbfe-e29d-49fd-a6af-6b6feb93a996
+    modifierType: 0
+    value: 0
+  enableAttackSpeedModifier: 0
+  attackSpeedModifier:
+    guid: 37ce09e1-023f-4a4f-9325-65d9d324008d
+    modifierType: 0
+    value: 0
+  enableAttackRangeModifier: 0
+  attackRangeModifier:
+    guid: a9fa2447-7752-4cd0-838e-b57e09689900
+    modifierType: 0
+    value: 0
+  enableFuelEfficiencyModifier: 0
+  fuelEfficiencyModifier:
+    guid: 1661e24d-da93-4c39-b255-96882d59eb54
+    modifierType: 0
+    value: 0
+  enableCarSafetyModifier: 0
+  carSafetyModifier:
+    guid: 76f6b4b3-2447-413b-840f-3c38afa7f196
+    modifierType: 0
+    value: 0
+  duration: 5

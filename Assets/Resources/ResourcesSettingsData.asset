@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 574f9c2ae74b43aab23da2dc2b5bd21f, type: 3}
+  m_Name: ResourcesSettingsData
+  m_EditorClassIdentifier: 
+  powerStoneMiningDuration: 2
+  powerStoneDepositAmountPerVein: 80
+  powerStoneVeinPrefab: {fileID: 8158766985590843690, guid: c9738f5625385ea4faddecc16a64a596,
+    type: 3}
+  ironMiningDuration: 4
+  ironDepositAmountPerVein: 80
+  ironVeinPrefab: {fileID: 1597637756099922766, guid: 57eccd8e4f59f254b8d0484a7f1a0315,
+    type: 3}
+  titaniumMiningDuration: 6
+  titaniumDepositAmountPerVein: 80
+  titaniumVeinPrefab: {fileID: 7924539765666432958, guid: a4287aed8318bb7488eb18b434465999,
+    type: 3}
+  mithrilMiningDuration: 8
+  mithrilDepositAmountPerVein: 80
+  mythrillVeinPrefab: {fileID: 8079507092372625935, guid: 04685f46ea6273f45b8d7184b0080358,
+    type: 3}
+  adamantiumMiningDuration: 10
+  adamantiumDepositAmountPerVein: 80
+  adamantineVeinPrefab: {fileID: 4952442278550190854, guid: 73b36918e8cc2af4286310ab6420a6a6,
+    type: 3}

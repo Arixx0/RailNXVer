@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a8ff2e1a460de46bba6414eec952cc, type: 3}
+  m_Name: sfx_preset_enemy_combatrobot_drill_atk
+  m_EditorClassIdentifier: 
+  sfx:
+  - {fileID: 8300000, guid: d1967c63160a9e046ba23ba2a8092c6a, type: 3}
+  - {fileID: 8300000, guid: f24778fbddc00534dbd1f12c3cd7870a, type: 3}
+  - {fileID: 8300000, guid: 284e73fdcaa0f3044864113adb031436, type: 3}
+  isRandomPitch: 1
+  minPitch: 0.9
+  maxPitch: 1.1

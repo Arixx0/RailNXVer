@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c2b4b68a4af8e4fade57763c8131ba, type: 3}
+  m_Name: environment_status_sand_storm
+  m_EditorClassIdentifier: 
+  displayName: "\uD658\uACBD \uC9C0\uB300 \uBAA8\uB798 \uD3ED\uD48D \uB514\uBC84\uD504"
+  description: "\uBAA8\uB798 \uD3ED\uD48D \uB514\uBC84\uD504 \uD6A8\uACFC\n\uACF5\uACA9
+    \uC0AC\uAC70\uB9AC /\uC774\uB3D9 \uC18D\uB3C4 -15%\n\uCC28\uB7C9 \uC548\uC804\uC131
+    \uC218\uCE58 - ??%"
+  enableHealthPointModifier: 0
+  healthPointModifier:
+    guid: 39709acb-fdf6-44ab-bff1-682f9cfb27c1
+    modifierType: 0
+    value: 0
+  enableArmorPointModifier: 0
+  armorPointModifier:
+    guid: 8632c51e-05e4-435d-b143-f5d7ba9809bf
+    modifierType: 0
+    value: 0
+  enableMoveSpeedModifier: 1
+  moveSpeedModifier:
+    guid: 3236bf7d-9fe6-45d6-8c1a-2c880ce39f5a
+    modifierType: 1
+    value: -0.15
+  enableRotateSpeedModifier: 0
+  rotateSpeedModifier:
+    guid: d15fdccb-2c28-45d7-bedd-c475762fe906
+    modifierType: 0
+    value: 0
+  enableAttackDamageModifier: 0
+  attackDamageModifier:
+    guid: 1b8fe32d-7cde-414a-8801-24f1648ff7ee
+    modifierType: 0
+    value: 0
+  enableArmorPierceModifier: 0
+  armorPierceModifier:
+    guid: c0bf435f-0514-4629-86c2-f03b27e0d29b
+    modifierType: 0
+    value: 0
+  enableAttackSpeedModifier: 0
+  attackSpeedModifier:
+    guid: 814fbf2d-7646-4da8-8b0f-7c9c279f50b5
+    modifierType: 0
+    value: 0
+  enableAttackRangeModifier: 1
+  attackRangeModifier:
+    guid: c5468db3-8d2e-463f-9536-0188404913ea
+    modifierType: 1
+    value: -0.15
+  enableFuelEfficiencyModifier: 0
+  fuelEfficiencyModifier:
+    guid: 51e8e53c-abf2-4c93-bfd8-0e1a67e6c7fc
+    modifierType: 0
+    value: 0
+  enableCarSafetyModifier: 1
+  carSafetyModifier:
+    guid: d7c3dcac-3132-4777-b451-57ee0c606adc
+    modifierType: 1
+    value: -0.3
+  guid: -1671604773
+  duration: 0

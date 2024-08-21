@@ -1,0 +1,9 @@
+﻿Identifier,EnergyGenerate
+string,int
+Car_GeneratorComp_0_Default,5
+Car_GeneratorComp_1_Default,8
+Car_GeneratorComp_2_Default,11
+Car_GeneratorComp_3_Default,14
+Car_GeneratorComp_4_Default,17
+Car_EngineComp_0_Default,5
+Car_EngineComp_1_Durability,10

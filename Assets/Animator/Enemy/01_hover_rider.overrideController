@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 01_hover_rider
+  m_Controller: {fileID: 9100000, guid: 23515fc72d9be0645806cb2331a83615, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 557ffc6ab4fc9c249ae98bb8adbcd2fb, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: a6976dd0aa4eef544a8f1bde22aa7c01,
+      type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: a7721f107fa269b48b6d1321480f436e, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 1c6eb113c1249e04da52d41436786903,
+      type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 83c04b49ec42cbc48bae2b85c9bc40ad, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 1c6eb113c1249e04da52d41436786903,
+      type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 8d232469b4b434d469853b58729d7369, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 9ac75eae3a62aac40973f0ab16dbbd25,
+      type: 3}

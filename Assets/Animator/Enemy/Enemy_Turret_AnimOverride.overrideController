@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Enemy_Turret_AnimOverride
+  m_Controller: {fileID: 9100000, guid: 23515fc72d9be0645806cb2331a83615, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: bba8d6ef6e5367c4b902df65d8eeea99, type: 2}
+    m_OverrideClip: {fileID: 4723146814002874508, guid: d25a282ccc1a6a24aa32586281c4d263,
+      type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: c4e477a64b9255e41a92a04a08e6697e, type: 2}
+    m_OverrideClip: {fileID: -8945691123924629249, guid: d25a282ccc1a6a24aa32586281c4d263,
+      type: 3}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Enemy_Combatbot_Drill_AnimOverride
+  m_Controller: {fileID: 9100000, guid: 7b762bb3884bdff4b98be86112e47961, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 21120514395870912, guid: 6430a6d6514093d49ab8074dcfda6451,
+      type: 3}
+    m_OverrideClip: {fileID: 21120514395870912, guid: b885bb5cf5d12364e8a7372fe7a41841,
+      type: 3}
+  - m_OriginalClip: {fileID: -5198682428711207545, guid: 6430a6d6514093d49ab8074dcfda6451,
+      type: 3}
+    m_OverrideClip: {fileID: -5198682428711207545, guid: b885bb5cf5d12364e8a7372fe7a41841,
+      type: 3}
+  - m_OriginalClip: {fileID: -4523083797507840679, guid: 6430a6d6514093d49ab8074dcfda6451,
+      type: 3}
+    m_OverrideClip: {fileID: -4523083797507840679, guid: b885bb5cf5d12364e8a7372fe7a41841,
+      type: 3}
+  - m_OriginalClip: {fileID: 2165539793984746410, guid: 6430a6d6514093d49ab8074dcfda6451,
+      type: 3}
+    m_OverrideClip: {fileID: 2165539793984746410, guid: b885bb5cf5d12364e8a7372fe7a41841,
+      type: 3}
+  - m_OriginalClip: {fileID: -8945691123924629249, guid: 6430a6d6514093d49ab8074dcfda6451,
+      type: 3}
+    m_OverrideClip: {fileID: -8945691123924629249, guid: b885bb5cf5d12364e8a7372fe7a41841,
+      type: 3}
+  - m_OriginalClip: {fileID: -7551964380084998518, guid: 6430a6d6514093d49ab8074dcfda6451,
+      type: 3}
+    m_OverrideClip: {fileID: -7551964380084998518, guid: b885bb5cf5d12364e8a7372fe7a41841,
+      type: 3}
+  - m_OriginalClip: {fileID: 8349542763059015795, guid: 6430a6d6514093d49ab8074dcfda6451,
+      type: 3}
+    m_OverrideClip: {fileID: 8349542763059015795, guid: b885bb5cf5d12364e8a7372fe7a41841,
+      type: 3}

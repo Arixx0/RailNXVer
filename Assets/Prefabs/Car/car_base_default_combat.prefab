@@ -1,0 +1,512 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1652683679103619063
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1421072219373926812, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 8240687078663768779, guid: f1f43e0a929b7864295d8fcd57cd12ac,
+        type: 3}
+    - target: {fileID: 1685276167087832115, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685276167087832115, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685276167087832115, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685276167087832115, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685276167087832115, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685276167087832115, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685276167087832115, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685276167087832115, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685276167087832115, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685276167087832115, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507997505345098315, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507997505345098315, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3528505738278032404, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_Name
+      value: car_base_default_combat
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134447903374195898, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: turret
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497880921068983231, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: unitTag
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6418019333803470155, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6418019333803470155, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 5201852915926172829, guid: 2ad4d387d27052a4e8719bdb2bddf182, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3528505738278032404, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+        type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 5656973455369667030}
+  m_SourcePrefab: {fileID: 100100000, guid: 2ad4d387d27052a4e8719bdb2bddf182, type: 3}
+--- !u!114 &986369106357312122 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1972517766390240653, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652683679103619063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2745021260532800483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 623772ee2af7a794493f2ba6cd059f65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2113002204174156703 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 845945846744058984, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652683679103619063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2745021260532800483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2b4c824391453e9f137bbaf2eff4aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!223 &2267069544296271405 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 691791490332770778, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652683679103619063}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2589703154521176344 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3828053363589641967, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652683679103619063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f06568bf672f7024ba5012254219d0f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2745021260532800483 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3528505738278032404, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652683679103619063}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5656973455369667030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2745021260532800483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f68d9d5b18c4913b2a9a623418d7a6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentTrain: {fileID: 0}
+  statComponent: {fileID: 6531317448056527944}
+  destructionCompositor: {fileID: 2113002204174156703}
+  healthBar: {fileID: 8050949097773929949}
+  selectedIndicatorCanvas: {fileID: 2267069544296271405}
+  taskProgressBarIconLoader: {fileID: 5451258248085425394}
+  taskProgressBar: {fileID: 2785141072934546083}
+  carDetailStatEffectIcon: {fileID: 3898143108769410180}
+  carDetailElectricIcon: {fileID: 5576974443576103438}
+  carDetailElectricInformation: {fileID: 5518960936814446134}
+  carDetailPowerStone: {fileID: 2589703154521176344}
+  carCircuitRepairItem: {fileID: 5763049621697679303}
+  carElectricPowerChangeItem: {fileID: 3264009354164802312}
+  noticeCompositor: {fileID: 986369106357312122}
+  contextMenuData:
+  - itemName: "\uC5C5\uADF8\uB808\uC774\uB4DC"
+    identifier:
+      category: Context
+      objectType: Menu
+      subType: Upgrade
+    itemIcon: {fileID: 21300000, guid: ece3b16c909374b44af76b49c4902290, type: 3}
+    exposeCondition: 0
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5656973455369667030}
+          m_TargetAssemblyTypeName: TrainScripts.Car, Assembly-CSharp
+          m_MethodName: ShowUpgrades
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - itemName: "\uB0B4\uAD6C\uB3C4 \uC218\uB9AC"
+    identifier:
+      category: Context
+      objectType: Menu
+      subType: Repair
+    itemIcon: {fileID: 21300000, guid: 3bcb1e0f2c7845c449f282b8e3e44f24, type: 3}
+    exposeCondition: 1
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5656973455369667030}
+          m_TargetAssemblyTypeName: TrainScripts.Car, Assembly-CSharp
+          m_MethodName: RepairDurability
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - itemName: "\uD68C\uB85C \uC218\uB9AC"
+    identifier:
+      category: Context
+      objectType: Menu
+      subType: Repair_Circuit
+    itemIcon: {fileID: 21300000, guid: 8a1fffdacc318134ea22dfaa66aa47b2, type: 3}
+    exposeCondition: 4
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5656973455369667030}
+          m_TargetAssemblyTypeName: TrainScripts.Car, Assembly-CSharp
+          m_MethodName: RepairCircuit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - itemName: "\uCC28\uB7C9 \uCCA0\uAC70"
+    identifier:
+      category: Context
+      objectType: Menu
+      subType: Demolish
+    itemIcon: {fileID: 21300000, guid: e68a68ad3cd309d4697ece64d9e86a1d, type: 3}
+    exposeCondition: 0
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5656973455369667030}
+          m_TargetAssemblyTypeName: TrainScripts.Car, Assembly-CSharp
+          m_MethodName: Demolish
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - itemName: "\uCC28\uB7C9 \uBCF5\uAD6C"
+    identifier:
+      category: Context
+      objectType: Menu
+      subType: Restore
+    itemIcon: {fileID: 21300000, guid: f482016114de82c47afe7b7ac91bcfcb, type: 3}
+    exposeCondition: 8
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5656973455369667030}
+          m_TargetAssemblyTypeName: TrainScripts.Car, Assembly-CSharp
+          m_MethodName: OnRestored
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - itemName: "\uC7AC\uBC30\uCE58"
+    identifier:
+      category: Context
+      objectType: Menu
+      subType: Reorder
+    itemIcon: {fileID: 21300000, guid: 91cbdc1f0cc13e742ac65656ffa67fe2, type: 3}
+    exposeCondition: 0
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5656973455369667030}
+          m_TargetAssemblyTypeName: TrainScripts.Car, Assembly-CSharp
+          m_MethodName: ReorderCar
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - itemName: "\uAC15\uC81C \uACF5\uACA9"
+    identifier:
+      category: Context
+      objectType: Menu
+      subType: Attack
+    itemIcon: {fileID: 21300000, guid: d2e599aae646d954bb2909e3a1a9f75e, type: 3}
+    exposeCondition: 0
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5656973455369667030}
+          m_TargetAssemblyTypeName: TrainScripts.CombatCompartment, Assembly-CSharp
+          m_MethodName: SelectAttackTarget
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - itemName: "\uC804\uB825 \uBCC0\uACBD"
+    identifier:
+      category: Context
+      objectType: Menu
+      subType: Electric_Change
+    itemIcon: {fileID: 21300000, guid: d70d13cce9d2f674f9aa538aa6999da5, type: 3}
+    exposeCondition: 0
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5656973455369667030}
+          m_TargetAssemblyTypeName: TrainScripts.Car, Assembly-CSharp
+          m_MethodName: ShowElectricPowerChangeItem
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - itemName: "\uC791\uC5C5 \uCDE8\uC18C"
+    identifier:
+      category: Context
+      objectType: Menu
+      subType: Common_Cancel
+    itemIcon: {fileID: 21300000, guid: f482016114de82c47afe7b7ac91bcfcb, type: 3}
+    exposeCondition: 2
+    onClickEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5656973455369667030}
+          m_TargetAssemblyTypeName: TrainScripts.Car, Assembly-CSharp
+          m_MethodName: CancelOperation
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  unitIdentifier:
+    category: Car
+    objectType: CombatComp
+    subType: Parent
+  unitLength: 8
+  m_CircuitFailure: 0
+  m_CircuitFailureTime: 0
+  m_CircuitFailureElapsedTime: 0
+  changeDelay: 3
+  lowElectricPowerDebuff: {fileID: 11400000, guid: ead6fe8462357dc41941799ea14adaa9,
+    type: 2}
+  highElectricPowerBuff: {fileID: 11400000, guid: 9b30a5aae49077a409c9df77555f6f2f,
+    type: 2}
+  maxElectricPowerBuff: {fileID: 11400000, guid: aab49978990ec3c48927f6c6f784054f,
+    type: 2}
+  overloadVFX: {fileID: 0}
+  m_CurrentElectricPowerGeneration: 0
+  m_CurrentElectricPowerUsage: 0
+  m_CurrentElectricPowerUsageType: 2
+  turret: {fileID: 0}
+--- !u!114 &2785141072934546083 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3479395751859299668, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652683679103619063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3264009354164802312 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4297441446564535551, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652683679103619063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 097ea5f3769a16242927e4e71b0b41e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3898143108769410180 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2375507575565771635, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652683679103619063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c122940f157e774c928ae4d809e73c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5451258248085425394 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6721975878370345733, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652683679103619063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83dab5bd1e926848ac322f0938f93ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5518960936814446134 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6519183352159504833, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652683679103619063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b915a7e3aea42ad4188f0af4f06e48ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5576974443576103438 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6596339388505366009, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652683679103619063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95262dedbfe5a4429cfe6b6dcf2a3a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5763049621697679303 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6419305211012300848, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652683679103619063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eec03d975a602a41a53e5ded611fc02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6531317448056527944 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5497880921068983231, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652683679103619063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2745021260532800483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d89d62c0ab1049f79f18b0678ccf2908, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8050949097773929949 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8742951979034057258, guid: 2ad4d387d27052a4e8719bdb2bddf182,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652683679103619063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ce9cd9a82c474787e94957ef93f906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

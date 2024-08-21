@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa2ba8f797c430ca679cc0a60440496, type: 3}
+  m_Name: status_engine_circuitfailure
+  m_EditorClassIdentifier: 
+  displayName: "\uC5D4\uC9C4 \uD68C\uB85C \uD30C\uC190 \uB514\uBC84\uD504"
+  description: "\uC5D4\uC9C4 \uD68C\uB85C \uD30C\uC190 \uD6A8\uACFC\n\uC774\uB3D9
+    \uC18D\uB3C4 -50%"
+  guid: 584606895
+  applicableUnitTag: 1
+  refreshOnApply: 1
+  applyToChainedTargets: 0
+  enableHealthPointModifier: 0
+  healthPointModifier:
+    guid: fe0bf47a-576c-4463-9177-0757bd854dae
+    modifierType: 0
+    value: 0
+  enableArmorPointModifier: 0
+  armorPointModifier:
+    guid: 4c07fc26-9dd9-47b8-88fc-4f0cca3878dd
+    modifierType: 0
+    value: 0
+  enableMoveSpeedModifier: 1
+  moveSpeedModifier:
+    guid: 55f1ab1d-c6fc-49a3-b864-674507118389
+    modifierType: 1
+    value: -0.5
+  enableRotateSpeedModifier: 0
+  rotateSpeedModifier:
+    guid: b4674d5b-e2ed-481a-9137-87bfe5a62c0b
+    modifierType: 0
+    value: 0
+  enableAttackDamageModifier: 0
+  attackDamageModifier:
+    guid: 7fe160f9-85c3-4e37-9783-ea7d474a43ab
+    modifierType: 0
+    value: 0
+  enableArmorPierceModifier: 0
+  armorPierceModifier:
+    guid: 3d2198c7-6390-4570-8b06-5306d3acb038
+    modifierType: 0
+    value: 0
+  enableAttackSpeedModifier: 0
+  attackSpeedModifier:
+    guid: b6cbe2aa-e3ec-4246-afad-c19d8a4f6694
+    modifierType: 0
+    value: 0
+  enableAttackRangeModifier: 0
+  attackRangeModifier:
+    guid: b114388a-53c1-430c-95d4-bc96389df772
+    modifierType: 0
+    value: 0
+  enableFuelEfficiencyModifier: 0
+  fuelEfficiencyModifier:
+    guid: 97779ce3-f655-456d-ad3e-ef86f2518ba5
+    modifierType: 0
+    value: 0
+  enableCarSafetyModifier: 0
+  carSafetyModifier:
+    guid: 9a1c8c13-b724-4eb8-9135-155fe6d45b95
+    modifierType: 0
+    value: 0
+  duration: Infinity

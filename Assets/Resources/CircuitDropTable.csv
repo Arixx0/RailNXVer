@@ -1,0 +1,15 @@
+﻿Index,Circuit_Num,Circuit_DropRate
+string,int,float
+Enemy_Wasteland_Raider,0,0
+Enemy_Wasteland_CombatRobotDrill,0,0
+Enemy_Wasteland_ScavengerRider,1,0.5
+Enemy_Wasteland_CombatRobotSaw,2,1
+Enemy_Wasteland_BomberCar,2,1
+Enemy_Wasteland_WarTruck,2,1
+Enemy_Wasteland_ScrapTank,4,1
+Enemy_Wasteland_SpiderTank,3,1
+Enemy_Wasteland_Turret,4,1
+Enemy_Wasteland_HarpoonTurret,4,1
+Enemy_Common_Barricade,2,0.5
+Enemy_Wasteland_RoadZeppelin,5,1
+Enemy_Wasteland_SandWarm,10,1

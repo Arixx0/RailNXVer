@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885b0ccfc6fe2b24eab7c88e72dae4db, type: 3}
+  m_Name: EventTree
+  m_EditorClassIdentifier: 
+  eventCategory: Event
+  eventTreeLUT:
+    keysSerializedCache:
+    - Event_Wreck
+    - Event_AugmentMerchant
+    - Event_WanderingMerchant
+    - Event_Repairshop
+    - Event_Evacuee
+    - Event_Caravan
+    - Event_GroundbreakingDiscovery_Development_Start
+    - Event_GroundbreakingDiscovery_Power_Efficiency_Start
+    - Event_GeneratorTrouble_Repair
+    valuesSerializedCache:
+    - nextEventNodeIdentifier:
+      - Event_WreckEnemy_AttackWarning
+      - Event_WreckDamagedAugment
+    - nextEventNodeIdentifier:
+      - Event_AugmentMerchant_AttackWarning
+    - nextEventNodeIdentifier:
+      - Event_WanderingMerchant_AttackWarning
+    - nextEventNodeIdentifier:
+      - Event_Repairshop_Findresource
+    - nextEventNodeIdentifier:
+      - Event_Evacuee_AttackWarning
+    - nextEventNodeIdentifier:
+      - Event_Caravan_AttackWarning
+    - nextEventNodeIdentifier:
+      - Event_GroundbreakingDiscovery_Development_Complite
+    - nextEventNodeIdentifier:
+      - Event_GroundbreakingDiscovery_Power_Efficiency_Complite
+    - nextEventNodeIdentifier:
+      - Event_GeneratorTrouble_Ignore

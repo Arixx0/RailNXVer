@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3fc5a10592d594cbf790eefc17846f, type: 3}
+  m_Name: VFXAndSFXSettingsData
+  m_EditorClassIdentifier: 
+  VFXCommonCategory: VFX
+  SFXCommonCategory: SFX
+  VFXAndSFXSettings:
+  - categoryName: "\uC5F4\uCC28"
+    SFXData:
+    - name: "\uC5F4\uCC28 \uACFC\uBD80\uD558"
+      Identifier:
+        category: 
+        objectType: Train
+        subType: OverLoad
+      sfxSource: {fileID: 8300000, guid: 4244e02b6908c0e48b98fcd4755f18f6, type: 3}
+    - name: "\uC5F4\uCC28 \uACFC\uBD80\uD558 \uD574\uC81C"
+      Identifier:
+        category: 
+        objectType: Train
+        subType: Restore
+      sfxSource: {fileID: 8300000, guid: 7263b96ca5cbd29488d10306fefec41b, type: 3}
+    VFXData:
+    - name: "\uC5F4\uCC28 \uAC00\uC18D"
+      Identifier:
+        category: 
+        objectType: Train
+        subType: Move
+      vfxSource: {fileID: 8591764151387591863, guid: c08f2aff747f773499b66e4026a02edd,
+        type: 3}
+  - categoryName: "\uCC28\uB7C9 \uACFC\uBD80\uD558"
+    SFXData: []
+    VFXData:
+    - name: "\uC5D4\uC9C4 \uCC28\uB7C9 0\uAC15 \uACFC\uBD80\uD558"
+      Identifier:
+        category: 
+        objectType: Car_EngineComp_0
+        subType: OverLoad
+      vfxSource: {fileID: -3714450066068239974, guid: d653df28e7a1c894eb949c19e7716ffa,
+        type: 3}
+    - name: "\uC5D4\uC9C4 \uCC28\uB7C9 1\uAC15 \uACFC\uBD80\uD558"
+      Identifier:
+        category: 
+        objectType: Car_EngineComp_1
+        subType: OverLoad
+      vfxSource: {fileID: 1906051725871560680, guid: b88b3f502db541749aeeee5ac407dae8,
+        type: 3}
+    - name: "\uC804\uD22C \uCC28\uB7C9 0\uAC15 \uACFC\uBD80\uD558"
+      Identifier:
+        category: 
+        objectType: Car_CombatComp_0
+        subType: OverLoad
+      vfxSource: {fileID: 4573220906427360398, guid: c00d2a25fbb76f647a232ce642b09974,
+        type: 3}
+    - name: "\uC804\uD22C \uCC28\uB7C9 1\uAC15 \uACFC\uBD80\uD558"
+      Identifier:
+        category: 
+        objectType: Car_CombatComp_1
+        subType: OverLoad
+      vfxSource: {fileID: -999748301374632937, guid: 9ae830c16ea21b44783666ba63c5301b,
+        type: 3}
+    - name: "\uBC1C\uC804 \uCC28\uB7C9 0\uAC15 \uACFC\uBD80\uD558"
+      Identifier:
+        category: 
+        objectType: Car_GeneratorComp_0
+        subType: OverLoad
+      vfxSource: {fileID: -6168515708257526573, guid: 8c6bc19a1a604204294bfc47be4dc939,
+        type: 3}
+    - name: "\uBC1C\uC804 \uCC28\uB7C9 1\uAC15 \uACFC\uBD80\uD558"
+      Identifier:
+        category: 
+        objectType: Car_GeneratorComp_1
+        subType: OverLoad
+      vfxSource: {fileID: -7178409017692337739, guid: a29d62465b3375944b2216cb38326949,
+        type: 3}
+    - name: "\uCC44\uC9D1 \uCC28\uB7C9 0\uAC15 \uACFC\uBD80\uD558"
+      Identifier:
+        category: 
+        objectType: Car_ScrapperComp_0
+        subType: OverLoad
+      vfxSource: {fileID: -2945522097886059161, guid: 2b1816282923ed744833f06496d732d7,
+        type: 3}
+    - name: "\uCC44\uC9D1 \uCC28\uB7C9 1\uAC15 \uACFC\uBD80\uD558"
+      Identifier:
+        category: 
+        objectType: Car_ScrapperComp_1
+        subType: OverLoad
+      vfxSource: {fileID: 5952330145091369074, guid: d778872b0087fbd42b22aa3b95744a12,
+        type: 3}
+    - name: "\uC720\uD2F8 \uCC28\uB7C9 0\uAC15 \uACFC\uBD80\uD558"
+      Identifier:
+        category: 
+        objectType: Car_UtilityComp_0
+        subType: OverLoad
+      vfxSource: {fileID: -8432251057960514193, guid: 1bfb86461e707c446984d7990398eebd,
+        type: 3}
+  - categoryName: "\uCC28\uB7C9 \uD68C\uB85C \uD30C\uC190"
+    SFXData: []
+    VFXData:
+    - name: "\uC5D4\uC9C4 \uCC28\uB7C9 0\uAC15 \uD68C\uB85C \uD30C\uC190"
+      Identifier:
+        category: 
+        objectType: Car_EngineComp_0
+        subType: CircuitFailure
+      vfxSource: {fileID: 8614629525343295685, guid: a03c54a4a1ed23143a2245f0a5c031aa,
+        type: 3}

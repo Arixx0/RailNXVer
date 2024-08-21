@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a9b9089ac8fefe47bffae5299d3bd97, type: 3}
+  m_Name: environment_status_great_storm
+  m_EditorClassIdentifier: 
+  displayName: "\uD658\uACBD \uC9C0\uB300 \uD3ED\uD48D \uB514\uBC84\uD504"
+  description: "\uAC70\uB300 \uD3ED\uD48D \uB514\uBC84\uD504 \uD6A8\uACFC\n1\uCD08\uB2F9
+    \uD604\uC7AC \uCCB4\uB825 -10%\n\uACF5\uACA9\uB825/\uACF5\uACA9\uC18D\uB3C4/\uACF5\uACA9
+    \uC0AC\uAC70\uB9AC -50%\n\uC804\uB825 \uC0DD\uC0B0\uB7C9 -5 (\uBBF8\uAD6C\uD604)\n\uC774\uB3D9\uC18D\uB3C4
+    -30%"
+  enableHealthPointModifier: 0
+  healthPointModifier:
+    guid: e839587d-85bd-452b-87e8-8ecbd3b9b080
+    modifierType: 0
+    value: 0
+  enableArmorPointModifier: 0
+  armorPointModifier:
+    guid: 8e460822-a557-4dbc-abaa-b0eb23b61699
+    modifierType: 0
+    value: 0
+  enableMoveSpeedModifier: 1
+  moveSpeedModifier:
+    guid: 3c90d98c-bb1a-4e8b-9a45-2368971e69dc
+    modifierType: 1
+    value: -0.3
+  enableRotateSpeedModifier: 0
+  rotateSpeedModifier:
+    guid: 1f6a5d9d-3d3d-47bc-9fdf-481759f0c13a
+    modifierType: 0
+    value: 0
+  enableAttackDamageModifier: 1
+  attackDamageModifier:
+    guid: f3fc0ed2-db7d-4e97-8d98-d910e2784d8a
+    modifierType: 1
+    value: -0.5
+  enableArmorPierceModifier: 0
+  armorPierceModifier:
+    guid: 29188b20-1000-484f-a7b8-a3f0ce74659d
+    modifierType: 0
+    value: 0
+  enableAttackSpeedModifier: 1
+  attackSpeedModifier:
+    guid: 8bcf9693-4df3-4101-bb99-66a714eb2b7c
+    modifierType: 1
+    value: -0.5
+  enableAttackRangeModifier: 1
+  attackRangeModifier:
+    guid: eebbe572-c040-49d3-a7d2-e4c0c910c289
+    modifierType: 1
+    value: -0.5
+  enableFuelEfficiencyModifier: 0
+  fuelEfficiencyModifier:
+    guid: 32722881-9931-444f-a72b-c50e10594d95
+    modifierType: 0
+    value: -5
+  guid: -871397072
+  duration: 0
+  coolDown: 1
+  healthReductionRate: 0.1

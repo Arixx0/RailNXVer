@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a8ff2e1a460de46bba6414eec952cc, type: 3}
+  m_Name: sfx_preset_enemy_combatrobot_saw_death
+  m_EditorClassIdentifier: 
+  sfx:
+  - {fileID: 8300000, guid: 2a520846ee1d06c49a5b8b3e20e895fc, type: 3}
+  - {fileID: 8300000, guid: 7b22c46f44b8bee4d86d8c2d43a95137, type: 3}
+  - {fileID: 8300000, guid: 83106f01a98e23a4c9ad4780beba95a6, type: 3}
+  isRandomPitch: 1
+  minPitch: 0.9
+  maxPitch: 1.1

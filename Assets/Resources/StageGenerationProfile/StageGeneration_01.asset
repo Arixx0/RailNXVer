@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c049eaeaa44df9ad6dcef181ce0d14, type: 3}
+  m_Name: StageGeneration_01
+  m_EditorClassIdentifier: 
+  mapWidth: 6
+  mapHeight: 14
+  seed: 2024-28-16 05:28:39
+  seedHash: 859
+  seedPathCountRange:
+    min: 2
+    max: 2
+  uniqueSeedPathCount: 3
+  fixedRoomEvents:
+  - roomEventType: 1
+    isAbsolutePosition: 0
+    position: 0.5
+  - roomEventType: 1
+    isAbsolutePosition: 1
+    position: 12
+  - roomEventType: 2
+    isAbsolutePosition: 1
+    position: 1
+  - roomEventType: 3
+    isAbsolutePosition: 1
+    position: 2
+  - roomEventType: 9
+    isAbsolutePosition: 0
+    position: 1
+  - roomEventType: 10
+    isAbsolutePosition: 1
+    position: 0
+  - roomEventType: 3
+    isAbsolutePosition: 1
+    position: 4
+  dynamicRoomEvents:
+  - roomEventType: 5
+    possibility: 0
+    maxCount: -1
+  - roomEventType: 4
+    possibility: 0
+    maxCount: -1
+  - roomEventType: 3
+    possibility: 0.5
+    maxCount: -1
+  - roomEventType: 6
+    possibility: 0
+    maxCount: -1
+  - roomEventType: 7
+    possibility: 0
+    maxCount: -1
+  - roomEventType: 8
+    possibility: 0
+    maxCount: -1
+  - roomEventType: 2
+    possibility: 0.5
+    maxCount: 7
+  - roomEventType: 1
+    possibility: 0
+    maxCount: -1
+  earlyPlacementCheckDepth: 5
+  earlyPlacementBlackList: 050000000100000008000000
+  consecutivePlacementBlackList: 05000000010000000800000004000000
+  mapSectorPrefabCollection: {fileID: 11400000, guid: 757210d05fdab044e854efa66b84f875,
+    type: 2}
+  displacementArgs:
+  - roomEventType: 1
+    displacement: 0
+  - roomEventType: 2
+    displacement: 0
+  - roomEventType: 3
+    displacement: 0
+  - roomEventType: 4
+    displacement: 0
+  - roomEventType: 5
+    displacement: 0
+  - roomEventType: 6
+    displacement: 0
+  - roomEventType: 7
+    displacement: 0
+  - roomEventType: 8
+    displacement: 0
+  - roomEventType: 9
+    displacement: 0
+  - roomEventType: 10
+    displacement: 0
+  spawnableResourceOfTypeCount: 3
+  inGameResourcesSpawnArgs:
+  - resourceType: 0
+    spawnPossibility: 1
+    spawnAmountRange:
+      min: 100
+      max: 150
+  - resourceType: 1
+    spawnPossibility: 1
+    spawnAmountRange:
+      min: 700
+      max: 800
+  - resourceType: 2
+    spawnPossibility: 0.2
+    spawnAmountRange:
+      min: 50
+      max: 100
+  mobSpawnProfiles:
+  - {fileID: 11400000, guid: cec1b1071df279741a8ae0212b60a1d1, type: 2}
+  - {fileID: 11400000, guid: 31df836505f48fb4e96740a1ec1942fa, type: 2}
+  - {fileID: 11400000, guid: eba8511bd5b1d844dbac2f8edb9cf832, type: 2}
+  - {fileID: 11400000, guid: deba8460936ba34419b2e8ef5e0ae51d, type: 2}
+  - {fileID: 11400000, guid: e00f6c5e2d8fd724eb7a202fd21bac3c, type: 2}
+  - {fileID: 11400000, guid: a1543d1caf02c024d8d17041d839267b, type: 2}
+  - {fileID: 11400000, guid: 50e06becfc0038243bafd0d7ffc3cfcf, type: 2}
+  - {fileID: 11400000, guid: 737696959bc226242807a2309268b443, type: 2}
+  - {fileID: 11400000, guid: 841f0b898ea259a4f9799e7879e59195, type: 2}
+  - {fileID: 11400000, guid: 52d4c2bdd05818544b75cb615a705237, type: 2}
+  shopKeeperItemsDefinition: {fileID: 11400000, guid: bfa051a8dc6019e488364b2ca1450d8e,
+    type: 2}
